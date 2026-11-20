@@ -13,21 +13,6 @@ A two-page, responsive **restaurant website concept** developed using **HTML5, C
 - **GitHub Repository:** `https://github.com/p-g-udara-dilshan/spice-garden-restaurant-qr-menu` *(after publishing the repository)*
 - **Walkthrough:** Add the link to your LinkedIn screen-recording post here, if desired.
 
-## 📸 Screenshots
-
-**Restaurant homepage**
-
-![Spice Garden homepage with restaurant hero section](assets/screenshots/homepage.jpg)
-
-**Digital menu**
-
-![Spice Garden digital menu with category filters and search](assets/screenshots/digital-menu.jpg)
-
-**Food catalogue**
-
-![Spice Garden food cards with prices and selection buttons](assets/screenshots/food-catalogue.jpg)
-
-*Screenshots were captured from the supplied project walkthrough.*
 
 ## ✨ Features
 
