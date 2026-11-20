@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#150e09">
+  <meta name="description" content="Spice Garden Restaurant — good food, fresh flavours and memorable moments. Explore our dishes, scan the digital menu or request a table.">
+  <meta property="og:title" content="Spice Garden Restaurant | A taste worth sharing">
+  <meta property="og:description" content="From comfort food to Sri Lankan favourites. Explore Spice Garden's digital menu.">
+  <meta property="og:type" content="website">
+  <title>Spice Garden Restaurant — A Taste Worth Sharing</title>
+  <link rel="icon" href="assets/images/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Great+Vibes&family=Playfair+Display:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <script defer src="assets/js/config.js"></script>
+  <script defer src="assets/js/menu-data.js"></script>
+  <script defer src="vendor/qr-engine.js"></script>
+  <script defer src="assets/js/site.js"></script>
+</head>
+<body class="home-page">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <svg class="svg-defs" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><defs>
+    <symbol id="i-hat" viewBox="0 0 48 48"><path d="M12 31C5 29 6 17 14 15c2-8 14-9 18-2 10-2 14 13 5 18M12 30h25v10H12z" fill="none" stroke="currentColor" stroke-width="2.8" stroke-linejoin="round" stroke-linecap="round"/><path d="M19 25v5m11-5v5" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></symbol>
+    <symbol id="i-utensils" viewBox="0 0 32 32"><path d="M5 3v10m5-10v10M2 3v7c0 4 3 5 5.5 5S13 14 13 10V3M7.5 15v14M23 29V4c-7 2-7 13 0 14v11" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" fill="none"/></symbol>
+    <symbol id="i-bag" viewBox="0 0 32 32"><path d="M6 11h20l2 17H4L6 11Zm5 0V8a5 5 0 0 1 10 0v3" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" fill="none"/></symbol>
+    <symbol id="i-scooter" viewBox="0 0 32 32"><path d="M2 23h8l3-9h8l4 9h5M10 23h10M9 12h7M18 8h4l5 8M5 28a4 4 0 1 0 0-8 4 4 0 0 0 0 8Zm22 0a4 4 0 1 0 0-8 4 4 0 0 0 0 8Z" stroke="currentColor" stroke-width="1.8" fill="none" stroke-linejoin="round" stroke-linecap="round"/></symbol>
+    <symbol id="i-clock" viewBox="0 0 32 32"><circle cx="16" cy="16" r="12" stroke="currentColor" stroke-width="2" fill="none"/><path d="M16 8v9l6 4" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round"/></symbol>
+    <symbol id="i-pin" viewBox="0 0 32 32"><path d="M16 29S6 18 6 12a10 10 0 0 1 20 0c0 6-10 17-10 17Z" stroke="currentColor" stroke-width="2" fill="none"/><circle cx="16" cy="12" r="3" stroke="currentColor" stroke-width="2" fill="none"/></symbol>
+    <symbol id="i-calendar" viewBox="0 0 32 32"><rect x="4" y="7" width="24" height="21" rx="3" stroke="currentColor" stroke-width="2" fill="none"/><path d="M10 3v8m12-8v8M4 14h24" stroke="currentColor" stroke-width="2"/><path d="m11 21 3 3 7-7" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-phone" viewBox="0 0 32 32"><path d="M8 4l5 5-3 4c2 4 5 7 9 9l4-3 5 5-3 4C14 28 4 18 4 7l4-3Z" stroke="currentColor" stroke-width="1.8" fill="none" stroke-linejoin="round"/></symbol>
+    <symbol id="i-leaf" viewBox="0 0 32 32"><path d="M5 28C8 8 17 3 29 3c0 16-7 25-24 25Zm0 0C14 16 18 12 27 6" stroke="currentColor" stroke-width="1.8" fill="none" stroke-linecap="round"/></symbol>
+    <symbol id="i-star" viewBox="0 0 32 32"><path d="m16 3 4.1 8.8L30 13l-7 6.9 1.7 10L16 25.2 7.3 30 9 19.9 2 13l9.9-1.2L16 3Z" stroke="currentColor" stroke-width="1.8" fill="none" stroke-linejoin="round"/></symbol>
+    <symbol id="i-people" viewBox="0 0 32 32"><circle cx="12" cy="11" r="5" stroke="currentColor" stroke-width="1.8" fill="none"/><path d="M2 27v-2a10 10 0 0 1 20 0v2H2Zm20-20a5 5 0 0 1 0 10m2 3a8 8 0 0 1 6 8" stroke="currentColor" stroke-width="1.8" fill="none" stroke-linejoin="round"/></symbol>
+    <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M4 12h16m-7-7 7 7-7 7" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  </defs></svg>
+
+  <header class="site-header" id="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="Spice Garden Restaurant home"><svg class="brand-mark"><use href="#i-hat"></use></svg><span><strong>Spice Garden</strong><small><i></i> RESTAURANT <i></i></small></span></a>
+      <nav class="desktop-nav" aria-label="Main navigation"><a class="active" href="#home">Home</a><a href="menu.html">Menu</a><a href="#about">About</a><a href="#gallery">Gallery</a><a href="#contact">Contact</a></nav>
+      <div class="header-actions"><a class="phone-pill" href="tel:+94724008159"><svg><use href="#i-phone"></use></svg><span>+94 72 400 8159</span></a><a href="#reservation" class="btn btn-orange header-reserve"><svg><use href="#i-calendar"></use></svg> Reserve a Table</a></div>
+      <button class="mobile-toggle" id="mobile-toggle" type="button" aria-label="Open navigation" aria-controls="mobile-navigation" aria-expanded="false"><span></span><span></span><span></span></button>
+    </div>
+    <nav class="mobile-nav" id="mobile-navigation" aria-label="Mobile navigation" hidden><a href="#home">Home</a><a href="menu.html">Full menu</a><a href="#about">About us</a><a href="#gallery">Gallery</a><a href="#qr-menu">QR menu</a><a href="#reservation">Reserve a table</a><a href="#contact">Contact</a></nav>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="home" aria-labelledby="hero-title">
+      <div class="hero-shade"></div>
+      <div class="container hero-layout">
+        <div class="hero-content" data-reveal>
+          <p class="script-intro">Welcome to</p>
+          <h1 id="hero-title">Spice Garden</h1>
+          <p class="restaurant-word">R E S T A U R A N T <span></span></p>
+          <p class="hero-description">Delicious food, warm hospitality, and a little something to make every meal memorable.</p>
+          <div class="hero-buttons"><a class="btn btn-orange" href="menu.html"><svg><use href="#i-utensils"></use></svg> View Menu</a><a class="btn btn-outline" href="#reservation"><svg><use href="#i-calendar"></use></svg> Reserve a Table</a></div>
+        </div>
+        <div class="hero-scribble" aria-hidden="true"><span></span><span></span><span></span></div>
+      </div>
+      <div class="services-bar"><div class="container services-list"><div class="service"><svg><use href="#i-utensils"></use></svg><span><strong>Dine In</strong><small>Good food, great company</small></span></div><div class="service"><svg><use href="#i-bag"></use></svg><span><strong>Takeaway</strong><small>Your favourites to go</small></span></div><div class="service"><svg><use href="#i-scooter"></use></svg><span><strong>Delivery Enquiries</strong><small>Ask about your area</small></span></div></div></div>
+    </section>
+
+    <section class="popular-section section-padding" id="popular" aria-labelledby="popular-title">
+      <div class="leaf-corner leaf-left" aria-hidden="true"><svg viewBox="0 0 200 250" fill="none"><path d="M12 238C51 167 84 82 170 16M46 185C5 172 12 138 24 112c41 12 50 42 22 73ZM76 126C38 101 49 59 74 34c36 32 32 67 2 92ZM113 78C105 28 143 14 178 15c-3 46-25 68-65 63Z" stroke="currentColor" stroke-width="3"/></svg></div>
+      <div class="container popular-layout">
+        <div class="section-intro" data-reveal><p class="kicker"><span></span> OUR MENU</p><h2 id="popular-title">Our Popular<br><em>Dishes</em></h2><p>Some of our most-loved plates, made fresh and served with plenty of flavour.</p><a href="menu.html" class="btn btn-outline-dark">View Full Menu <svg><use href="#i-arrow"></use></svg></a></div>
+        <div class="featured-wrap"><div class="featured-cards" id="featured-cards" aria-label="Popular dishes"></div><div class="carousel-controls"><button type="button" id="featured-prev" aria-label="Show previous dishes">‹</button><button type="button" id="featured-next" aria-label="Show next dishes">›</button></div></div>
+      </div>
+    </section>
+
+    <section class="about-section section-padding" id="about" aria-labelledby="about-title"><div class="container about-layout"><div class="about-photos" data-reveal><img class="about-photo-main" src="assets/images/rice-curry.webp" alt="A colourful Sri Lankan rice and curry meal" loading="lazy" width="810" height="700"><div class="about-side-photo"><img src="assets/images/egg-hoppers.webp" alt="Fresh egg hoppers with sambol" loading="lazy" width="810" height="700"></div><span class="about-photo-badge">GOOD FOOD<br>GOOD MOOD <b>✳</b></span></div><div class="about-copy" data-reveal><p class="kicker"><span></span> ABOUT US</p><h2 id="about-title">A place for<br><em>good food & good company.</em></h2><p>There is something special about sharing a meal. The familiar aroma of fresh spices, a table full of favourites, and conversations that go on long after the plates are empty.</p><p>At Spice Garden, the little details make all the difference — honest flavour, comforting dishes, and a welcoming atmosphere.</p><div class="about-points"><div><svg><use href="#i-leaf"></use></svg><span><strong>Fresh Ingredients</strong><small>Goodness in every bite</small></span></div><div><svg><use href="#i-hat"></use></svg><span><strong>Made with Care</strong><small>Thoughtful, hearty flavours</small></span></div><div><svg><use href="#i-people"></use></svg><span><strong>Warm & Welcoming</strong><small>Make yourself at home</small></span></div></div><a class="text-link" href="#gallery">Take a look around <svg><use href="#i-arrow"></use></svg></a></div></div></section>
+
+    <section class="qr-section" id="qr-menu" aria-labelledby="qr-title"><div class="container qr-layout"><div class="phone-illustration" aria-hidden="true"><div class="phone-speaker"></div><div class="phone-screen"><div class="phone-top"><svg><use href="#i-hat"></use></svg><span>Spice Garden<small>DIGITAL MENU</small></span></div><strong>Our Menu</strong><div class="phone-row"><img src="assets/images/chicken-kottu.webp" alt=""><span>Chef's Specials<small>Explore favourites</small></span>›</div><div class="phone-row"><img src="assets/images/rice-curry.webp" alt=""><span>Rice & Curry<small>Full of flavour</small></span>›</div><div class="phone-row"><img src="assets/images/egg-hoppers.webp" alt=""><span>Sri Lankan Classics<small>Traditional & tasty</small></span>›</div></div></div><div class="qr-block"><div class="qr-frame"><div id="qr-code" role="img" aria-label="Scannable QR code opening the digital menu"></div></div><p>SCAN ME</p></div><div class="qr-info" data-reveal><p class="kicker light"><span></span> DIGITAL MENU</p><h2 id="qr-title">Scan & View Our<br><em>Digital Menu</em></h2><p>Point your camera, explore the full menu, and decide what you're craving. No extra app needed.</p><div class="qr-actions"><a href="menu.html" class="btn btn-orange">Explore Menu <svg><use href="#i-arrow"></use></svg></a><button type="button" id="download-qr" class="qr-download">Download QR <span>↓</span></button></div><small class="qr-hint" id="qr-status" aria-live="polite">QR automatically links to this website's menu after publishing.</small></div></div></section>
+
+    <section class="gallery-section section-padding" id="gallery" aria-labelledby="gallery-title"><div class="container"><div class="gallery-head" data-reveal><div><p class="kicker"><span></span> TAKE A LOOK</p><h2 id="gallery-title">A glimpse of<br><em>Spice Garden.</em></h2></div><p>A few favourite flavours and moments from around our table.</p></div><div class="gallery-grid"><button class="gallery-item gallery-large" type="button" data-lightbox="assets/images/chicken-kottu.webp" aria-label="View chicken kottu photo"><img src="assets/images/chicken-kottu.webp" alt="Fresh chicken kottu" loading="lazy"><span>Made fresh, always <b>↗</b></span></button><button class="gallery-item" type="button" data-lightbox="assets/images/burger-fries.webp" aria-label="View burger and fries photo"><img src="assets/images/burger-fries.webp" alt="Burger with golden fries" loading="lazy"><span>Something for everyone <b>↗</b></span></button><button class="gallery-item" type="button" data-lightbox="assets/images/prawn-curry.webp" aria-label="View prawn curry photo"><img src="assets/images/prawn-curry.webp" alt="Sri Lankan prawn curry" loading="lazy"><span>Full of flavour <b>↗</b></span></button><button class="gallery-item" type="button" data-lightbox="assets/images/egg-hoppers.webp" aria-label="View egg hopper photo"><img src="assets/images/egg-hoppers.webp" alt="Egg hoppers" loading="lazy"><span>A little tradition <b>↗</b></span></button></div></div></section>
+
+    <section class="reservation-section" id="reservation" aria-labelledby="booking-title"><div class="container booking-layout"><div class="booking-copy" data-reveal><p class="kicker light"><span></span> SAVE YOUR SEAT</p><h2 id="booking-title">Make time for<br><em>something delicious.</em></h2><p>Planning a meal together? Send us your preferred date, time and party size and we'll get back to you.</p><div class="booking-note"><svg><use href="#i-clock"></use></svg><span>Reservation requests are subject to confirmation.</span></div></div><form class="reservation-form" id="reservation-form" data-reveal><div class="input-field"><label for="guest-name">Your name</label><input type="text" id="guest-name" name="name" placeholder="Your full name" maxlength="80" autocomplete="name" required></div><div class="input-field"><label for="guest-phone">Phone number</label><input type="tel" id="guest-phone" name="phone" placeholder="07X XXX XXXX" maxlength="18" autocomplete="tel" required></div><div class="input-field"><label for="booking-date">Preferred date</label><input type="date" id="booking-date" name="date" required></div><div class="input-field"><label for="booking-time">Preferred time</label><select id="booking-time" name="time" required><option value="">Choose a time</option><option>11:00 AM</option><option>12:00 PM</option><option>1:00 PM</option><option>2:00 PM</option><option>5:00 PM</option><option>6:00 PM</option><option>7:00 PM</option><option>8:00 PM</option><option>9:00 PM</option></select></div><div class="input-field guests-field"><label for="booking-guests">Number of guests</label><select id="booking-guests" name="guests" required><option value="">Select party size</option><option>1 guest</option><option>2 guests</option><option>3 guests</option><option>4 guests</option><option>5 guests</option><option>6 guests</option><option>7 guests</option><option>8 guests</option><option>9+ guests</option></select></div><button class="btn btn-orange booking-submit" type="submit">Request a Table <svg><use href="#i-arrow"></use></svg></button><p class="booking-status" id="booking-status" role="status" aria-live="polite"></p></form></div></section>
+  </main>
+
+  <footer class="footer" id="contact"><div class="container footer-main"><div class="footer-brand"><a class="brand" href="#home"><svg class="brand-mark"><use href="#i-hat"></use></svg><span><strong>Spice Garden</strong><small><i></i> RESTAURANT <i></i></small></span></a><p>Good food. Great company.<br>A taste worth sharing.</p></div><div class="footer-column"><h3>Explore</h3><a href="menu.html">Our full menu</a><a href="#about">Our story</a><a href="#gallery">Gallery</a><a href="#qr-menu">QR menu</a></div><div class="footer-column"><h3>Get in touch</h3><a href="tel:+94724008159"><svg><use href="#i-phone"></use></svg> +94 72 400 8159</a><a href="https://wa.me/94724008159" rel="noopener noreferrer" target="_blank">WhatsApp enquiry ↗</a><p><svg><use href="#i-pin"></use></svg> Sri Lanka</p></div><div class="footer-column"><h3>Plan a visit</h3><p><svg><use href="#i-clock"></use></svg> Opening hours: please enquire</p><a href="#reservation" class="footer-book">Request a reservation ↗</a></div></div><div class="container footer-bottom"><span>© <span id="year"></span> Spice Garden Restaurant. All rights reserved.</span><span>Made for memorable moments.</span></div></footer>
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Gallery photo" hidden><button id="close-lightbox" aria-label="Close image" type="button">✕</button><img id="lightbox-image" alt="Restaurant gallery image" src="assets/images/chicken-kottu.webp"></div>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>

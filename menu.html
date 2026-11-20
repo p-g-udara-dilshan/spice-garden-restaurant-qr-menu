@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#150e09">
+  <meta name="description" content="Explore the Spice Garden digital menu. Browse favourites, filter dishes and prepare an enquiry in a few taps.">
+  <title>Digital Menu | Spice Garden Restaurant</title>
+  <link rel="icon" href="assets/images/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Great+Vibes&family=Playfair+Display:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <script defer src="assets/js/config.js"></script><script defer src="assets/js/menu-data.js"></script><script defer src="assets/js/site.js"></script><script defer src="assets/js/menu.js"></script>
+</head>
+<body class="menu-page">
+  <a class="skip-link" href="#main">Skip to menu</a>
+  <svg class="svg-defs" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><defs>
+    <symbol id="i-hat" viewBox="0 0 48 48"><path d="M12 31C5 29 6 17 14 15c2-8 14-9 18-2 10-2 14 13 5 18M12 30h25v10H12z" fill="none" stroke="currentColor" stroke-width="2.8" stroke-linejoin="round" stroke-linecap="round"/><path d="M19 25v5m11-5v5" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></symbol>
+    <symbol id="i-utensils" viewBox="0 0 32 32"><path d="M5 3v10m5-10v10M2 3v7c0 4 3 5 5.5 5S13 14 13 10V3M7.5 15v14M23 29V4c-7 2-7 13 0 14v11" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" fill="none"/></symbol>
+    <symbol id="i-bag" viewBox="0 0 32 32"><path d="M6 11h20l2 17H4L6 11Zm5 0V8a5 5 0 0 1 10 0v3" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" fill="none"/></symbol>
+    <symbol id="i-scooter" viewBox="0 0 32 32"><path d="M2 23h8l3-9h8l4 9h5M10 23h10M9 12h7M18 8h4l5 8M5 28a4 4 0 1 0 0-8 4 4 0 0 0 0 8Zm22 0a4 4 0 1 0 0-8 4 4 0 0 0 0 8Z" stroke="currentColor" stroke-width="1.8" fill="none" stroke-linejoin="round" stroke-linecap="round"/></symbol>
+    <symbol id="i-clock" viewBox="0 0 32 32"><circle cx="16" cy="16" r="12" stroke="currentColor" stroke-width="2" fill="none"/><path d="M16 8v9l6 4" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round"/></symbol>
+    <symbol id="i-pin" viewBox="0 0 32 32"><path d="M16 29S6 18 6 12a10 10 0 0 1 20 0c0 6-10 17-10 17Z" stroke="currentColor" stroke-width="2" fill="none"/><circle cx="16" cy="12" r="3" stroke="currentColor" stroke-width="2" fill="none"/></symbol>
+    <symbol id="i-calendar" viewBox="0 0 32 32"><rect x="4" y="7" width="24" height="21" rx="3" stroke="currentColor" stroke-width="2" fill="none"/><path d="M10 3v8m12-8v8M4 14h24" stroke="currentColor" stroke-width="2"/><path d="m11 21 3 3 7-7" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-phone" viewBox="0 0 32 32"><path d="M8 4l5 5-3 4c2 4 5 7 9 9l4-3 5 5-3 4C14 28 4 18 4 7l4-3Z" stroke="currentColor" stroke-width="1.8" fill="none" stroke-linejoin="round"/></symbol>
+    <symbol id="i-leaf" viewBox="0 0 32 32"><path d="M5 28C8 8 17 3 29 3c0 16-7 25-24 25Zm0 0C14 16 18 12 27 6" stroke="currentColor" stroke-width="1.8" fill="none" stroke-linecap="round"/></symbol>
+    <symbol id="i-star" viewBox="0 0 32 32"><path d="m16 3 4.1 8.8L30 13l-7 6.9 1.7 10L16 25.2 7.3 30 9 19.9 2 13l9.9-1.2L16 3Z" stroke="currentColor" stroke-width="1.8" fill="none" stroke-linejoin="round"/></symbol>
+    <symbol id="i-people" viewBox="0 0 32 32"><circle cx="12" cy="11" r="5" stroke="currentColor" stroke-width="1.8" fill="none"/><path d="M2 27v-2a10 10 0 0 1 20 0v2H2Zm20-20a5 5 0 0 1 0 10m2 3a8 8 0 0 1 6 8" stroke="currentColor" stroke-width="1.8" fill="none" stroke-linejoin="round"/></symbol>
+    <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M4 12h16m-7-7 7 7-7 7" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  </defs></svg>
+  <header class="site-header menu-site-header" id="site-header"><div class="container header-inner">
+    <a class="brand" href="index.html" aria-label="Spice Garden Restaurant home"><svg class="brand-mark"><use href="#i-hat"></use></svg><span><strong>Spice Garden</strong><small><i></i> RESTAURANT <i></i></small></span></a>
+    <nav class="desktop-nav" aria-label="Main navigation"><a href="index.html">Home</a><a href="menu.html" class="active">Menu</a><a href="index.html#about">About</a><a href="index.html#gallery">Gallery</a><a href="index.html#contact">Contact</a></nav>
+    <div class="header-actions"><a class="phone-pill" href="tel:+94724008159"><svg><use href="#i-phone"></use></svg><span>+94 72 400 8159</span></a><a href="index.html#reservation" class="btn btn-orange header-reserve"><svg><use href="#i-calendar"></use></svg> Reserve a Table</a></div>
+    <button class="mobile-toggle" id="mobile-toggle" type="button" aria-label="Open navigation" aria-controls="mobile-navigation" aria-expanded="false"><span></span><span></span><span></span></button>
+  </div><nav class="mobile-nav" id="mobile-navigation" aria-label="Mobile navigation" hidden><a href="index.html">Home</a><a href="menu.html">Full menu</a><a href="index.html#about">About us</a><a href="index.html#gallery">Gallery</a><a href="index.html#reservation">Reserve a table</a><a href="index.html#contact">Contact</a></nav></header>
+  <main id="main">
+    <section class="menu-masthead"><div class="container menu-masthead-inner"><p class="kicker light"><span></span> SPICE GARDEN / DIGITAL MENU</p><p class="script-intro">Something delicious</p><h1>What's <em>cooking?</em></h1><p>Browse the menu, find something you'll love, and build your own favourites list.</p><div class="menu-masthead-tools"><a href="index.html" class="small-back">← Back to restaurant</a><button type="button" id="share-menu" class="share-link">Share this menu ↗</button></div></div></section>
+    <section class="menu-catalog section-padding"><div class="container">
+      <div class="menu-toolbar"><div class="menu-heading"><p class="kicker"><span></span> FRESH FROM OUR KITCHEN</p><h2>Explore our <em>menu.</em></h2></div><label class="search-field"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="m16 16 5 5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg><span class="sr-only">Search dishes</span><input type="search" id="dish-search" placeholder="Search for a dish…" autocomplete="off"></label></div>
+      <div class="category-list" id="category-list" role="group" aria-label="Filter dishes by category"></div>
+      <div class="catalog-info"><p id="results-count" aria-live="polite">Explore our favourites</p><p>All prices in Sri Lankan rupees</p></div>
+      <div class="catalog-grid" id="catalog-grid" aria-live="polite"></div><div id="no-results" class="no-results" hidden><h3>No dishes found</h3><p>Try another search or browse everything.</p><button type="button" id="clear-filters" class="btn btn-orange">Show all dishes</button></div>
+      <div class="menu-note"><svg><use href="#i-leaf"></use></svg><div><strong>Made fresh. Served with care.</strong><p>Have a question about ingredients, spice levels or a special request? Get in touch before ordering.</p></div><a href="index.html#contact">Contact us ↗</a></div>
+    </div></section>
+  </main>
+  <footer class="footer"><div class="container footer-main"><div class="footer-brand"><a class="brand" href="index.html" aria-label="Spice Garden Restaurant home"><svg class="brand-mark"><use href="#i-hat"></use></svg><span><strong>Spice Garden</strong><small><i></i> RESTAURANT <i></i></small></span></a><p>Good food. Great company.<br>A taste worth sharing.</p></div><div class="footer-column"><h3>Explore</h3><a href="index.html">Home</a><a href="menu.html">Our menu</a><a href="index.html#about">Our story</a></div><div class="footer-column"><h3>Get in touch</h3><a href="tel:+94724008159">+94 72 400 8159</a><a href="https://wa.me/94724008159" target="_blank" rel="noopener noreferrer">WhatsApp enquiry ↗</a></div><div class="footer-column"><h3>Plan a visit</h3><a href="index.html#reservation">Request a reservation ↗</a><p>Sri Lanka</p></div></div><div class="container footer-bottom"><span>© <span id="year"></span> Spice Garden Restaurant. All rights reserved.</span><span>Made for memorable moments.</span></div></footer>
+  <button type="button" class="cart-fab" id="cart-fab" hidden><span>View selection</span><span id="cart-fab-count">0 items</span><strong id="cart-fab-total">Rs. 0</strong><svg><use href="#i-arrow"></use></svg></button>
+  <div class="cart-overlay" id="cart-overlay" hidden></div>
+  <aside class="cart-panel" id="cart-panel" role="dialog" aria-modal="true" aria-label="Your selected dishes" hidden><div class="cart-panel-head"><div><p class="kicker"><span></span> YOUR FAVOURITES</p><h2>Your <em>selection.</em></h2></div><button type="button" id="close-cart" aria-label="Close selection">✕</button></div><p class="cart-subtitle">Choose your dishes and send an enquiry to check availability.</p><div class="cart-items" id="cart-items"></div><div class="cart-panel-bottom"><div class="cart-subtotal"><span>Estimated total</span><strong id="cart-total">Rs. 0</strong></div><p class="cart-disclaimer">Final price and availability are confirmed by the restaurant. This is an enquiry, not a completed order.</p><button class="btn btn-orange" id="send-order" type="button">Prepare WhatsApp enquiry <svg><use href="#i-arrow"></use></svg></button><button type="button" id="clear-cart" class="clear-cart">Clear selection</button><p id="order-message-status" role="status"></p></div></aside>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
